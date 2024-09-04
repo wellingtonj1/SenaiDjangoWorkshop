@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao DjangoApp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #004d99;
+            color: #fff;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .button {
+            display: inline-block;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #004d99;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .logo {
+            max-width: 150px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Substitua o caminho do logo pelo caminho correto do seu arquivo de imagem -->
+        <!-- <img src="caminho/para/o/logo.png" alt="Logo da Aplicação" class="logo"> -->
+        <h1>Bem-vindo ao Home !</h1>
+    </header>
+    <div class="container">
+        <h2>Aqui abaixo to renderizando oque quer que venha do que foi passado no objeto do render no attr var_alguma_coisa:</h2>
+        {{ var_alguma_coisa }}
+    </div>
+    <footer>
+        <p>&copy; 2024 DjangoApp - Desenvolvido no Senai</p>
+    </footer>
+</body>
+</html>
